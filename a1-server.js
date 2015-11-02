@@ -35,6 +35,7 @@ function handleRequest(request, response){
     // and sum (global) variables
     console.re.log("The sum is: " + sum);
     // 2. Add a debug message which ouputs the current values of the augend addend and sum variables
+    console.re.log("Augend: " + augend, "Addend: " + addend, "Sum: " + sum);
 }
 
 // Create an instance of a http server
